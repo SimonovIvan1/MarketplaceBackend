@@ -1,0 +1,12 @@
+E:\MarketplaceBackend\MarketplaceBackend.BLL\bin\Debug\net5.0\MarketplaceBackend.BLL.deps.json
+E:\MarketplaceBackend\MarketplaceBackend.BLL\bin\Debug\net5.0\MarketplaceBackend.BLL.dll
+E:\MarketplaceBackend\MarketplaceBackend.BLL\bin\Debug\net5.0\MarketplaceBackend.BLL.pdb
+E:\MarketplaceBackend\MarketplaceBackend.BLL\obj\Debug\net5.0\MarketplaceBackend.BLL.csproj.AssemblyReference.cache
+E:\MarketplaceBackend\MarketplaceBackend.BLL\obj\Debug\net5.0\MarketplaceBackend.BLL.GeneratedMSBuildEditorConfig.editorconfig
+E:\MarketplaceBackend\MarketplaceBackend.BLL\obj\Debug\net5.0\MarketplaceBackend.BLL.AssemblyInfoInputs.cache
+E:\MarketplaceBackend\MarketplaceBackend.BLL\obj\Debug\net5.0\MarketplaceBackend.BLL.AssemblyInfo.cs
+E:\MarketplaceBackend\MarketplaceBackend.BLL\obj\Debug\net5.0\MarketplaceBackend.BLL.csproj.CoreCompileInputs.cache
+E:\MarketplaceBackend\MarketplaceBackend.BLL\obj\Debug\net5.0\MarketplaceBackend.BLL.dll
+E:\MarketplaceBackend\MarketplaceBackend.BLL\obj\Debug\net5.0\refint\MarketplaceBackend.BLL.dll
+E:\MarketplaceBackend\MarketplaceBackend.BLL\obj\Debug\net5.0\MarketplaceBackend.BLL.pdb
+E:\MarketplaceBackend\MarketplaceBackend.BLL\obj\Debug\net5.0\ref\MarketplaceBackend.BLL.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "MarketplaceBackend.BLL/1.0.0": {
+        "runtime": {
+          "MarketplaceBackend.BLL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MarketplaceBackend.BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

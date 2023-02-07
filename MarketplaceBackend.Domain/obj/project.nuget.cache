@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "j+qAOfagV/dtFfQzDcdEQzvrAsd0uI1Kz97OdYXl0fXfL79Itpv0yiOp9uQ4e/LlveWdYpkUWFw6WOIHxG1lxA==",
+  "success": true,
+  "projectFilePath": "E:\\MarketplaceBackend\\MarketplaceBackend.Domain\\MarketplaceBackend.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

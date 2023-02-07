@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketplaceBackend", "MarketplaceBackend.csproj", "{0D6090F5-D100-4613-9BBD-BB8BDF168AD7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{68DF2472-FACF-4C7A-8173-3BAC3365795C} = {68DF2472-FACF-4C7A-8173-3BAC3365795C}
+		{ABF4103C-5B3B-4A91-9FD7-808BE9BDD6E7} = {ABF4103C-5B3B-4A91-9FD7-808BE9BDD6E7}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MarketplaceBackend.Domain", "MarketplaceBackend.Domain", "{51884131-6094-466A-9DFD-C29D0DF42B24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MarketplaceBackend.BLL", "MarketplaceBackend.BLL", "{CD3B291E-3465-4F60-837D-5499C85E16CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketplaceBackend.Domain", "..\MarketplaceBackend.Domain\MarketplaceBackend.Domain.csproj", "{68DF2472-FACF-4C7A-8173-3BAC3365795C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MarketplaceBackend.DAL", "MarketplaceBackend.DAL", "{8F7703AC-ED67-440F-A025-3CF0C4A18DFF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketplaceBackend.DAL", "..\MarketplaceBackend.DAL\MarketplaceBackend.DAL.csproj", "{B5F53597-AAE2-479D-9FE2-E46F0707495F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketplaceBackend.BLL", "..\MarketplaceBackend.BLL\MarketplaceBackend.BLL.csproj", "{ABF4103C-5B3B-4A91-9FD7-808BE9BDD6E7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{68DF2472-FACF-4C7A-8173-3BAC3365795C} = {68DF2472-FACF-4C7A-8173-3BAC3365795C}
+		{B5F53597-AAE2-479D-9FE2-E46F0707495F} = {B5F53597-AAE2-479D-9FE2-E46F0707495F}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D6090F5-D100-4613-9BBD-BB8BDF168AD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D6090F5-D100-4613-9BBD-BB8BDF168AD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D6090F5-D100-4613-9BBD-BB8BDF168AD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D6090F5-D100-4613-9BBD-BB8BDF168AD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68DF2472-FACF-4C7A-8173-3BAC3365795C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68DF2472-FACF-4C7A-8173-3BAC3365795C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68DF2472-FACF-4C7A-8173-3BAC3365795C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68DF2472-FACF-4C7A-8173-3BAC3365795C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5F53597-AAE2-479D-9FE2-E46F0707495F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5F53597-AAE2-479D-9FE2-E46F0707495F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5F53597-AAE2-479D-9FE2-E46F0707495F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5F53597-AAE2-479D-9FE2-E46F0707495F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABF4103C-5B3B-4A91-9FD7-808BE9BDD6E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABF4103C-5B3B-4A91-9FD7-808BE9BDD6E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABF4103C-5B3B-4A91-9FD7-808BE9BDD6E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABF4103C-5B3B-4A91-9FD7-808BE9BDD6E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{68DF2472-FACF-4C7A-8173-3BAC3365795C} = {51884131-6094-466A-9DFD-C29D0DF42B24}
+		{B5F53597-AAE2-479D-9FE2-E46F0707495F} = {8F7703AC-ED67-440F-A025-3CF0C4A18DFF}
+		{ABF4103C-5B3B-4A91-9FD7-808BE9BDD6E7} = {CD3B291E-3465-4F60-837D-5499C85E16CE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CAAA4B0E-5F95-425A-A1F8-798FD143854F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,12 @@
+E:\MarketplaceBackend\MarketplaceBackend.Domain\obj\Debug\net5.0\MarketplaceBackend.Domain.csproj.AssemblyReference.cache
+E:\MarketplaceBackend\MarketplaceBackend.Domain\obj\Debug\net5.0\MarketplaceBackend.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\MarketplaceBackend\MarketplaceBackend.Domain\obj\Debug\net5.0\MarketplaceBackend.Domain.AssemblyInfoInputs.cache
+E:\MarketplaceBackend\MarketplaceBackend.Domain\obj\Debug\net5.0\MarketplaceBackend.Domain.AssemblyInfo.cs
+E:\MarketplaceBackend\MarketplaceBackend.Domain\obj\Debug\net5.0\MarketplaceBackend.Domain.csproj.CoreCompileInputs.cache
+E:\MarketplaceBackend\MarketplaceBackend.Domain\bin\Debug\net5.0\MarketplaceBackend.Domain.deps.json
+E:\MarketplaceBackend\MarketplaceBackend.Domain\bin\Debug\net5.0\MarketplaceBackend.Domain.dll
+E:\MarketplaceBackend\MarketplaceBackend.Domain\bin\Debug\net5.0\MarketplaceBackend.Domain.pdb
+E:\MarketplaceBackend\MarketplaceBackend.Domain\obj\Debug\net5.0\MarketplaceBackend.Domain.dll
+E:\MarketplaceBackend\MarketplaceBackend.Domain\obj\Debug\net5.0\refint\MarketplaceBackend.Domain.dll
+E:\MarketplaceBackend\MarketplaceBackend.Domain\obj\Debug\net5.0\MarketplaceBackend.Domain.pdb
+E:\MarketplaceBackend\MarketplaceBackend.Domain\obj\Debug\net5.0\ref\MarketplaceBackend.Domain.dll
