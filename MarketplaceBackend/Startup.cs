@@ -1,5 +1,6 @@
 using MarketplaceBackend.DAL.Interfaces;
 using MarketplaceBackend.DAL.Repository;
+using MarketplaceBackend.BLL.Interfaces;
 using MarketplaceBackend.Domain.Entity;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -7,6 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using MarketplaceBackend.BLL.Implementations;
 
 namespace MarketplaceBackend
 {
@@ -31,6 +33,14 @@ namespace MarketplaceBackend
             services.AddScoped<IBaseRepository<ProductInCart>, ProductInCartRepository>();
             services.AddScoped<IBaseRepository<Product>, ProductRepository>();
             services.AddScoped<IBaseRepository<Service>, ServiceRepository>();
+
+            services.AddScoped<ICartBLL, CartBLL>();
+            services.AddScoped<ICategoryBLL, CategoryBLL>();
+            services.AddScoped<IOrderingRulesBLL, OrderingRulesBLL>();
+            services.AddScoped<IPartnerBLL, PartnerBLL>();
+            services.AddScoped<IProductBLL, ProductBLL>();
+            services.AddScoped<IProductInCartBLL, ProductInCartBLL>();
+            services.AddScoped<IServiceBLL, ServiceBLL>();
 
             services.AddSwaggerGen(page =>
             {

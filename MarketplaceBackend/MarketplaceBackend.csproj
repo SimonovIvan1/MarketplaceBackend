@@ -11,7 +11,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MarketplaceBackend.BLL\MarketplaceBackend.BLL.csproj" />
     <ProjectReference Include="..\MarketplaceBackend.DAL\MarketplaceBackend.DAL.csproj" />
+    <ProjectReference Include="..\MarketplaceBackend.Domain\MarketplaceBackend.Domain.csproj" />
   </ItemGroup>
 
 </Project>

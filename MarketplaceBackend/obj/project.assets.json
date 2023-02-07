@@ -290,6 +290,16 @@
           }
         }
       },
+      "MarketplaceBackend.BLL/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/MarketplaceBackend.BLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MarketplaceBackend.BLL.dll": {}
+        }
+      },
       "MarketplaceBackend.DAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -801,6 +811,11 @@
         "version.txt"
       ]
     },
+    "MarketplaceBackend.BLL/1.0.0": {
+      "type": "project",
+      "path": "../MarketplaceBackend.BLL/MarketplaceBackend.BLL.csproj",
+      "msbuildProject": "../MarketplaceBackend.BLL/MarketplaceBackend.BLL.csproj"
+    },
     "MarketplaceBackend.DAL/1.0.0": {
       "type": "project",
       "path": "../MarketplaceBackend.DAL/MarketplaceBackend.DAL.csproj",
@@ -814,7 +829,9 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "MarketplaceBackend.BLL >= 1.0.0",
       "MarketplaceBackend.DAL >= 1.0.0",
+      "MarketplaceBackend.Domain >= 1.0.0",
       "Swashbuckle.AspNetCore.Swagger >= 6.5.0",
       "Swashbuckle.AspNetCore.SwaggerGen >= 6.5.0",
       "Swashbuckle.AspNetCore.SwaggerUI >= 6.5.0"
@@ -852,8 +869,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "E:\\MarketplaceBackend\\MarketplaceBackend.BLL\\MarketplaceBackend.BLL.csproj": {
+              "projectPath": "E:\\MarketplaceBackend\\MarketplaceBackend.BLL\\MarketplaceBackend.BLL.csproj"
+            },
             "E:\\MarketplaceBackend\\MarketplaceBackend.DAL\\MarketplaceBackend.DAL.csproj": {
               "projectPath": "E:\\MarketplaceBackend\\MarketplaceBackend.DAL\\MarketplaceBackend.DAL.csproj"
+            },
+            "E:\\MarketplaceBackend\\MarketplaceBackend.Domain\\MarketplaceBackend.Domain.csproj": {
+              "projectPath": "E:\\MarketplaceBackend\\MarketplaceBackend.Domain\\MarketplaceBackend.Domain.csproj"
             }
           }
         }
