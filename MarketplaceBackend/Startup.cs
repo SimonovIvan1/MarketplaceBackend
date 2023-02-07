@@ -9,6 +9,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using MarketplaceBackend.BLL.Implementations;
+using MarketplaceBackend.DAL;
+using Microsoft.EntityFrameworkCore;
 
 namespace MarketplaceBackend
 {
@@ -25,6 +27,9 @@ namespace MarketplaceBackend
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            var connection = Configuration.GetConnectionString("DefaultConnection");
+            services.AddDbContext<AppDbContext>(options =>
+                options.UseSqlServer(connection));
 
             services.AddScoped<IBaseRepository<Cart>, CartRepository>();
             services.AddScoped<IBaseRepository<Category>, CategoryRepository>();
@@ -87,9 +92,7 @@ namespace MarketplaceBackend
 
             app.UseEndpoints(endpoints =>
             {
-                endpoints.MapControllerRoute(
-                    name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapControllers();
             });
         }
     }
