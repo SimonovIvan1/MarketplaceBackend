@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\MarketplaceBackend.BLL",
+    "\\MarketplaceBackend.BLL\\Implementations",
+    "\\MarketplaceBackend.BLL\\Interfaces",
+    "\\MarketplaceBackend.DAL",
+    "\\MarketplaceBackend.DAL\\Interfaces",
+    "\\MarketplaceBackend.DAL\\Repository",
+    "\\MarketplaceBackend.Domain",
+    "\\MarketplaceBackend.Domain\\Entity"
+  ],
+  "SelectedNode": "\\MarketplaceBackend.Domain\\IBaseResponse.cs",
+  "PreviewInSolutionExplorer": false
+}

@@ -11,8 +11,7 @@ namespace MarketplaceBackend.Domain.Entity
         public string ImageUrl { get; set; }
 
         public string Description { get; set; }
-
-            
+           
         public string[] PhoneNumbers { get; set; }
 
         public string[] Emails { get; set; }

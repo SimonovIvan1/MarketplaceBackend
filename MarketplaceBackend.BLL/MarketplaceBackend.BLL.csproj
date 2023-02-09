@@ -4,4 +4,9 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MarketplaceBackend.DAL\MarketplaceBackend.DAL.csproj" />
+    <ProjectReference Include="..\MarketplaceBackend.Domain\MarketplaceBackend.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

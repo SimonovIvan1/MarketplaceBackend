@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MarketplaceBackend.Domain
+namespace MarketplaceBackend.Domain.Response
 {
     public interface IBaseResponse<T>
     {
