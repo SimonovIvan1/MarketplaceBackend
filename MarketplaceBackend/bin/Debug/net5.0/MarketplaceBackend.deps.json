@@ -1328,6 +1328,10 @@
         }
       },
       "MarketplaceBackend.BLL/1.0.0": {
+        "dependencies": {
+          "MarketplaceBackend.DAL": "1.0.0",
+          "MarketplaceBackend.Domain": "1.0.0"
+        },
         "runtime": {
           "MarketplaceBackend.BLL.dll": {}
         },

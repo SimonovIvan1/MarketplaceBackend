@@ -1,5 +1,6 @@
 ﻿using MarketplaceBackend.DAL.Interfaces;
 using MarketplaceBackend.Domain.Entity;
+using Microsoft.EntityFrameworkCore;
 using System.Linq;
 using System.Threading.Tasks;
 

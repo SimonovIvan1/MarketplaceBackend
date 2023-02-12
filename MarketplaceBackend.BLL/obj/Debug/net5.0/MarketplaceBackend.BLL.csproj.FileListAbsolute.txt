@@ -10,3 +10,8 @@ E:\MarketplaceBackend\MarketplaceBackend.BLL\obj\Debug\net5.0\MarketplaceBackend
 E:\MarketplaceBackend\MarketplaceBackend.BLL\obj\Debug\net5.0\refint\MarketplaceBackend.BLL.dll
 E:\MarketplaceBackend\MarketplaceBackend.BLL\obj\Debug\net5.0\MarketplaceBackend.BLL.pdb
 E:\MarketplaceBackend\MarketplaceBackend.BLL\obj\Debug\net5.0\ref\MarketplaceBackend.BLL.dll
+E:\MarketplaceBackend\MarketplaceBackend.BLL\bin\Debug\net5.0\MarketplaceBackend.DAL.dll
+E:\MarketplaceBackend\MarketplaceBackend.BLL\bin\Debug\net5.0\MarketplaceBackend.Domain.dll
+E:\MarketplaceBackend\MarketplaceBackend.BLL\bin\Debug\net5.0\MarketplaceBackend.DAL.pdb
+E:\MarketplaceBackend\MarketplaceBackend.BLL\bin\Debug\net5.0\MarketplaceBackend.Domain.pdb
+E:\MarketplaceBackend\MarketplaceBackend.BLL\obj\Debug\net5.0\MarketplaceBackend.BLL.csproj.CopyComplete

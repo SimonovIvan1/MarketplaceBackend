@@ -1,7 +1,10 @@
 ﻿using MarketplaceBackend.BLL.Interfaces;
 using MarketplaceBackend.DAL.Interfaces;
+using MarketplaceBackend.DAL.Repository;
 using MarketplaceBackend.Domain.Entity;
+using MarketplaceBackend.Domain.Enum;
 using MarketplaceBackend.Domain.Response;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -31,14 +34,67 @@ namespace MarketplaceBackend.BLL.Implementations
             throw new NotImplementedException();
         }
 
-        public Task<IBaseResponse<Category>> EditCategory(int id)
+        public async Task<IBaseResponse<Category>> EditCategory(int id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var category = await _categoryRepository.GetAll().FirstOrDefaultAsync(x => x.Id == id);
+                if (category == null)
+                {
+                    return new BaseResponse<Category>()
+                    {
+                        Description = "Car not found"
+                    };
+                }
+
+                category.Name = category.Name;
+
+                await _categoryRepository.Update(category);
+
+
+                return new BaseResponse<Category>()
+                {
+                    Data = category,
+                    
+                };
+                
+            }
+            catch (Exception ex)
+            {
+                return new BaseResponse<Category>()
+                {
+                    Description = $"[Edit] : {ex.Message}"
+                };
+            }
         }
 
         public IBaseResponse<List<Category>> GetCategories()
         {
-            throw new NotImplementedException();
+            try
+            {
+                var categories = _categoryRepository.GetAll().ToList();
+                if (!categories.Any())
+                {
+                    return new BaseResponse<List<Category>>()
+                    {
+                        Description = "Найдено 0 элементов"
+                    };
+                }
+
+                return new BaseResponse<List<Category>>()
+                {
+                    Data = categories,
+                   
+                };
+            }
+            catch (Exception ex)
+            {
+                return new BaseResponse<List<Category>>()
+                {
+                    Description = $"[GetCategories] : {ex.Message}"
+                    
+                };
+            }
         }
 
         public Task<IBaseResponse<Category>> GetCategory(int id)

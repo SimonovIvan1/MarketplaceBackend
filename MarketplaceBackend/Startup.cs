@@ -11,6 +11,8 @@ using Microsoft.OpenApi.Models;
 using MarketplaceBackend.BLL.Implementations;
 using MarketplaceBackend.DAL;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
+using System;
 
 namespace MarketplaceBackend
 {
@@ -49,6 +51,23 @@ namespace MarketplaceBackend
 
             services.AddSwaggerGen(page =>
             {
+                page.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Version = "v1",
+                    Title = "ToDo API",
+                    Description = "An ASP.NET Core Web API for managing ToDo items",
+                    TermsOfService = new Uri("https://example.com/terms"),
+                    Contact = new OpenApiContact
+                    {
+                        Name = "Example Contact",
+                        Url = new Uri("https://example.com/contact")
+                    },
+                    License = new OpenApiLicense
+                    {
+                        Name = "Example License",
+                        Url = new Uri("https://example.com/license")
+                    }
+                });
                 page.SwaggerDoc("cart", new OpenApiInfo { Title = "cart", Version = "v1" });
                 page.SwaggerDoc("category", new OpenApiInfo { Title = "category", Version = "v1" });
                 page.SwaggerDoc("orderingRules", new OpenApiInfo { Title = "orderingRules", Version = "v1" });
@@ -75,6 +94,7 @@ namespace MarketplaceBackend
                     page.SwaggerEndpoint("/swagger/product/swagger.json", "product");
                     page.SwaggerEndpoint("/swagger/productInCart/swagger.json", "productInCart");
                     page.SwaggerEndpoint("/swagger/service/swagger.json", "service");
+                    page.RoutePrefix = string.Empty;
                 });
             }
             else
