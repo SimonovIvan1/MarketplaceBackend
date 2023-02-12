@@ -43,7 +43,7 @@ namespace MarketplaceBackend.BLL.Implementations
                 {
                     return new BaseResponse<Category>()
                     {
-                        Description = "Car not found"
+                        Description = "Category not found"
                     };
                 }
 
